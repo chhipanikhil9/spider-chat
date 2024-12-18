@@ -1,6 +1,6 @@
 # ✨ Full Stack Realtime Chat App ✨
 
-![Demo App](/frontend/public/chat_ss.png)
+![Demo App](/frontend/public/users_chat_ss.png)
 ![Demo App](/frontend/public/signup_ss.png)
 ![Demo App](/frontend/public/login_ss.png)
 ![Demo App](/frontend/public/profile_update_ss.png)
@@ -30,12 +30,12 @@ CLOUDINARY_API_SECRET=...
 NODE_ENV=development
 ```
 
-### Build the app
+### Run Backend
 ```shell
-npm run build
+node src/index.js
 ```
 
-### Start the app
+### Run frontend
 ```shell
-npm start
+npm run dev
 ```
